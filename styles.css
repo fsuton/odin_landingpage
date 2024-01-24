@@ -16,12 +16,13 @@
     padding-top: 15px;
 
 }
-.navigation li:first-child {
+.navigation div:first-child {
     margin-right: auto;
 }
 
 
 .header_logo {
+    padding-left: 15px;
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
@@ -36,7 +37,7 @@
 .web_title {
     padding: 100px;
 }
-.main_text {
+.main_text_container {
     color:#F9FAF8;
     display: flex;
     list-style: none; 
@@ -44,24 +45,27 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    width: 800px;
 }
-.main_text li
-{
-    border: 4px solid firebrick;
-    list-style: none;
+
+.leftista {
+    flex-grow: 1;
 }
 
 .main_text h1 {
     font-size: 48px;
     margin: auto;
+    flex-grow: 1;
 
 }
 .main_subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
-.main_text .image {
+.image {
     background-color: #1F2937;
+    flex-grow: 1;
+    width: 800px;
 }
 
 .sign_up {
@@ -71,6 +75,9 @@
     font-size: 24px;
     padding: 10px 40px;
     border-radius: 28px;
+}
+.info_section{
+    margin-bottom: 50px;
 }
 
 .information {
@@ -85,7 +92,25 @@
     display: flex;
     width: 100%;
     gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 
+}
+.subtext_container{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.imgsubtext {
+    gap: 30px;
+    border: 1px solid firebrick;
 }
 
 .boximage {
@@ -95,6 +120,40 @@
     border-radius: 28px;
 }
 
+.qq {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+.quote_section {
+    display: flex;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    width: 800px;
+    height: auto;
+    align-items: center;
+}
+.quote_author {
+    font-weight: bold;
+    display: flex;
+    width: 800px;
+    align-items: flex-end;
+    border: 1px solid firebrick;
+}
+.CTA_section{
+    padding: 100px;
+
+}
+
+.CTA_container{
+    width: 800px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    border: 1px solid firebrick;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
 
 
 .footer  {
